@@ -3,27 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9403D86C26C4F52500BB8DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403D86B26C4F52500BB8DA6 /* AppDelegate.swift */; };
 		9403D86E26C4F52500BB8DA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403D86D26C4F52500BB8DA6 /* SceneDelegate.swift */; };
-		9403D87026C4F52500BB8DA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403D86F26C4F52500BB8DA6 /* ViewController.swift */; };
 		9403D87326C4F52500BB8DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9403D87126C4F52500BB8DA6 /* Main.storyboard */; };
 		9403D87526C4F52900BB8DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9403D87426C4F52900BB8DA6 /* Assets.xcassets */; };
 		9403D87826C4F52900BB8DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9403D87626C4F52900BB8DA6 /* LaunchScreen.storyboard */; };
+		9403D88026C4F58200BB8DA6 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403D87F26C4F58200BB8DA6 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9403D86826C4F52500BB8DA6 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9403D86B26C4F52500BB8DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9403D86D26C4F52500BB8DA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9403D86F26C4F52500BB8DA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9403D87226C4F52500BB8DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9403D87426C4F52900BB8DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9403D87726C4F52900BB8DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9403D87926C4F52900BB8DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9403D87F26C4F58200BB8DA6 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				9403D86B26C4F52500BB8DA6 /* AppDelegate.swift */,
 				9403D86D26C4F52500BB8DA6 /* SceneDelegate.swift */,
-				9403D86F26C4F52500BB8DA6 /* ViewController.swift */,
+				9403D87F26C4F58200BB8DA6 /* GenreButtonScreen.swift */,
 				9403D87126C4F52500BB8DA6 /* Main.storyboard */,
 				9403D87426C4F52900BB8DA6 /* Assets.xcassets */,
 				9403D87626C4F52900BB8DA6 /* LaunchScreen.storyboard */,
@@ -103,7 +103,7 @@
 				};
 			};
 			buildConfigurationList = 9403D86326C4F52500BB8DA6 /* Build configuration list for PBXProject "MusicPlayer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9403D87026C4F52500BB8DA6 /* ViewController.swift in Sources */,
 				9403D86C26C4F52500BB8DA6 /* AppDelegate.swift in Sources */,
 				9403D86E26C4F52500BB8DA6 /* SceneDelegate.swift in Sources */,
+				9403D88026C4F58200BB8DA6 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.music.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.music.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
